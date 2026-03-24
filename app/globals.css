@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-canvas text-ink antialiased;
+}
+
+.premium-card {
+  @apply rounded-2xl border border-slate-200/80 bg-white shadow-soft;
+}
+
+.section-title {
+  @apply text-xs uppercase tracking-[0.2em] text-brand-600;
+}
